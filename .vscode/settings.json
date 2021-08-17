@@ -1,0 +1,22 @@
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--enable=W0614"
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    "editor.rulers": [
+        120,
+    ],
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 120,
+    },
+    "restructuredtext.languageServer.disabled": true,
+}
